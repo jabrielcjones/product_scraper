@@ -44,7 +44,7 @@ python run.py
 
    - `run.py`
    - `wholesalers/dollarday.py`
-   - Python file for an existing wholesaler
+   - HTML file product page from new wholesaler
 
 3. Add the following prompt to the ChatGPT chat:
 
