@@ -1,37 +1,35 @@
 # Product Scraper
 
-## Install
-
-### Virtual Environment Setup
-
-Change to the project directory
+1. Change to the project directory
 
 ```bash
 cd product_scraper
 ```
 
-Create Python Virtual Environment
+2. Create Python Virtual Environment
 
 ```bash
 python3 -m venv .venv
 ```
 
-Activate Python Virtual Environment
+3. Activate Python Virtual Environment
 
 ```bash
 source .venv/bin/activate
 ```
 
-### Requirments Installation
+4. Install app
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Save Product webpages to `input_files/`
+5. Save Product webpages to `input_files/`
 
-## Run
+6. Run app to create CSV file with product info
 
 ```bash
 python run.py
 ```
+
+7. Find the CSV file at `output/output.csv`
