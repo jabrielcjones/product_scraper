@@ -24,7 +24,7 @@ def main():
             continue
 
         wholesaler = folder.name.lower()
-        print(f"📦 Processing wholesaler: {wholesaler}")
+        print(f"\n📦 Processing wholesaler: {wholesaler.upper()}")
 
         try:
             parse_func = import_scraper(wholesaler)
